@@ -2,6 +2,7 @@
     <string name="app_name">MadLevel1Example</string>
     <string name="what_animal">What kind of animal is this?</string>
     <string name="guess">Please guess</string>
+    <string name="guess_button">Guess</string>
     <string name="giraffe">Giraffe</string>
     <string name="correct">Correct!</string>
     <string name="incorrect">Incorrect, the correct answer is Giraffe!</string>

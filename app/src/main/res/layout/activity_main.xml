@@ -29,9 +29,10 @@
 
     <EditText
         android:id="@+id/etAnswer"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/guess"
@@ -39,5 +40,15 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/guess_button"
+        app:layout_constraintEnd_toEndOf="@+id/etAnswer"
+        app:layout_constraintStart_toStartOf="@+id/etAnswer"
+        app:layout_constraintTop_toBottomOf="@+id/etAnswer" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
